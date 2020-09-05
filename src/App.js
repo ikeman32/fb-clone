@@ -5,7 +5,7 @@ import { Header, Sidebar, Feed, Widgets, Login } from './components';
 
 
 function App() {
-  const user = 'null';
+  const user = '';
   return (
     <div className="app">
       {!user ?
