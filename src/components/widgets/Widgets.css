@@ -1,0 +1,7 @@
+.widgets > iframe{
+    border: none;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
