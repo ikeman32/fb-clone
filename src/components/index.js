@@ -5,8 +5,9 @@ import Feed from './feed/Feed';
 import StoryReel from './storyReel/StoryReel';
 import Story from './story/Story';
 import MessageSender from './messageSender/MessageSender';
-import Post from './post/Post'
-import Widgets from './widgets/Widgets'
+import Post from './post/Post';
+import Widgets from './widgets/Widgets';
+import Login from './login/Login';
 
 export {
     Header,
@@ -17,5 +18,6 @@ export {
     Story,
     MessageSender,
     Post,
-    Widgets
+    Widgets,
+    Login
 };
