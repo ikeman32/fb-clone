@@ -14,7 +14,7 @@ function Feed() {
                 message='Test post.' //{message}
                 timestamp='This is a timestamp' //{timestamp}
                 username= 'Nobody' //{username}
-                image='' //{image}
+                image='https://cdn.britannica.com/s:700x500/54/75854-050-E27E66C0/Eiffel-Tower-Paris.jpg' //{image}
             />
         </div>
     )
