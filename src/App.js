@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header, Sidebar } from './components';
+import { Header, Sidebar, Feed } from './components';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
       <div className='app_body'>
         <Sidebar />
-        {/*feed*/}
+        <Feed />
         {/*eidgets*/}
       </div>
     </div>
