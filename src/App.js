@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import { Header, Sidebar, Feed, Widgets, Login } from './components';
-
-
+import { useStateValue } from './StateProvider';
 
 function App() {
-  const user = '';
+  const [{user}, dispatch] = useStateValue();
+
   return (
     <div className="app">
       {!user ?
