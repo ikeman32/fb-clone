@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import { Header } from './components';
+
 
 function App() {
   return (
     <div className="app">
-      <h1>FB clone!</h1>
 
-      {/*header */}
+      <Header />
 
       {/*app body*/}
         {/*side bare*/}
